@@ -1,14 +1,14 @@
 package com.greetingSpring.model;
 
 public class Greeting {
-	private int id;
+	private long id;
 	private String message;
 
-	public Greeting(int id,String message) {
-		this.id=id;
+	public Greeting(long l,String message) {
+		this.id=l;
 		this.message=message;
 	}
-	public int getId() {
+	public long getId() {
 		return this.id;
 	}
 	public String getMessage() {
